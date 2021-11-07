@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rpc-reply message-id="urn:uuid:d0cd4b48-72f5-4286-89c2-1407f846a352" xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" set-id="1636">
+  <data>
+    <ethernet xmlns="http://www.huawei.com/netconf/vrp" format-version="1.0" content-version="1.0">
+      <ethernetIfs>
+        <ethernetIf>
+          <ifName>Ethernet1/0/0</ifName>
+          <ifIndex>5</ifIndex>
+          <swapEnable>disable</swapEnable>
+          <l2Enable>disable</l2Enable>
+          <peEthType>0x8100</peEthType>
+          <vlanAssigns/>
+        </ethernetIf>
+        <ethernetIf>
+          <ifName>Ethernet1/0/1</ifName>
+          <ifIndex>6</ifIndex>
+          <swapEnable>disable</swapEnable>
+          <l2Enable>disable</l2Enable>
+          <peEthType>0x8100</peEthType>
+          <vlanAssigns/>
+        </ethernetIf>
+        <ethernetIf>
+          <ifName>Ethernet1/0/2</ifName>
+          <ifIndex>7</ifIndex>
+          <swapEnable>disable</swapEnable>
+          <l2Enable>disable</l2Enable>
+          <peEthType>0x8100</peEthType>
+          <vlanAssigns/>
+        </ethernetIf>
+        <ethernetIf>
+          <ifName>Ethernet1/0/3</ifName>
+          <ifIndex>8</ifIndex>
+          <swapEnable>disable</swapEnable>
+          <l2Enable>disable</l2Enable>
+          <peEthType>0x8100</peEthType>
+          <vlanAssigns/>
+        </ethernetIf>
+        <ethernetIf>
+          <ifName>Ethernet1/0/4</ifName>
+          <ifIndex>9</ifIndex>
+          <swapEnable>disable</swapEnable>
+          <l2Enable>disable</l2Enable>
+          <peEthType>0x8100</peEthType>
+          <vlanAssigns/>
+        </ethernetIf>
+        <ethernetIf>
+          <ifName>Ethernet1/0/5</ifName>
+          <ifIndex>10</ifIndex>
+          <swapEnable>disable</swapEnable>
+          <l2Enable>disable</l2Enable>
+          <peEthType>0x8100</peEthType>
+          <vlanAssigns/>
+        </ethernetIf>
+        <ethernetIf>
+          <ifName>Ethernet1/0/6</ifName>
+          <ifIndex>11</ifIndex>
+          <swapEnable>disable</swapEnable>
+          <l2Enable>disable</l2Enable>
+          <peEthType>0x8100</peEthType>
+          <vlanAssigns/>
+        </ethernetIf>
+        <ethernetIf>
+          <ifName>Ethernet1/0/7</ifName>
+          <ifIndex>12</ifIndex>
+          <swapEnable>disable</swapEnable>
+          <l2Enable>disable</l2Enable>
+          <peEthType>0x8100</peEthType>
+          <vlanAssigns/>
+        </ethernetIf>
+        <ethernetIf>
+          <ifName>Ethernet1/0/8</ifName>
+          <ifIndex>13</ifIndex>
+          <swapEnable>disable</swapEnable>
+          <l2Enable>disable</l2Enable>
+          <peEthType>0x8100</peEthType>
+          <vlanAssigns/>
+        </ethernetIf>
+        <ethernetIf>
+          <ifName>Ethernet1/0/9</ifName>
+          <ifIndex>14</ifIndex>
+          <swapEnable>disable</swapEnable>
+          <l2Enable>disable</l2Enable>
+          <peEthType>0x8100</peEthType>
+          <vlanAssigns/>
+        </ethernetIf>
+      </ethernetIfs>
+    </ethernet>
+    <mac xmlns="http://www.huawei.com/netconf/vrp" format-version="1.0" content-version="1.0">
+      <globalAttribute>
+        <macAgeTimeEnable>enable</macAgeTimeEnable>
+        <macAgingTime>300</macAgingTime>
+      </globalAttribute>
+      <macUsages>
+        <macUsage>
+          <slot>0</slot>
+          <slotType>MPU</slotType>
+          <macUsage>0</macUsage>
+          <macCapability>0</macCapability>
+          <macThreshold>90</macThreshold>
+        </macUsage>
+        <macUsage>
+          <slot>1</slot>
+          <slotType>LPU</slotType>
+          <macUsage>0</macUsage>
+          <macCapability>10000</macCapability>
+          <macThreshold>90</macThreshold>
+        </macUsage>
+      </macUsages>
+      <macAddrSummarys>
+        <macAddrSummary>
+          <slotId>0</slotId>
+          <totalNum>0</totalNum>
+          <blackholeNum>0</blackholeNum>
+          <staticNum>0</staticNum>
+          <dynamicNum>0</dynamicNum>
+          <dynLocalNum>0</dynLocalNum>
+          <dynRemote>0</dynRemote>
+          <dynTrunk>0</dynTrunk>
+          <oamNum>0</oamNum>
+          <stickyNum>0</stickyNum>
+          <securityNum>0</securityNum>
+          <authenNum>0</authenNum>
+          <guestNum>0</guestNum>
+          <muxNum>0</muxNum>
+          <tunnelNum>0</tunnelNum>
+          <snoopingNum>0</snoopingNum>
+          <evnNum>0</evnNum>
+          <ovsdbNum>0</ovsdbNum>
+          <capacity>32768</capacity>
+        </macAddrSummary>
+        <macAddrSummary>
+          <slotId>1</slotId>
+          <totalNum>0</totalNum>
+          <blackholeNum>0</blackholeNum>
+          <staticNum>0</staticNum>
+          <dynamicNum>0</dynamicNum>
+          <dynLocalNum>0</dynLocalNum>
+          <dynRemote>0</dynRemote>
+          <dynTrunk>0</dynTrunk>
+          <oamNum>0</oamNum>
+          <stickyNum>0</stickyNum>
+          <securityNum>0</securityNum>
+          <authenNum>0</authenNum>
+          <guestNum>0</guestNum>
+          <muxNum>0</muxNum>
+          <tunnelNum>0</tunnelNum>
+          <snoopingNum>0</snoopingNum>
+          <evnNum>0</evnNum>
+          <ovsdbNum>0</ovsdbNum>
+          <capacity>32768</capacity>
+        </macAddrSummary>
+      </macAddrSummarys>
+    </mac>
+    <ftpc xmlns="http://www.huawei.com/netconf/vrp" format-version="1.0" content-version="1.0">
+      <ftpClient>
+        <sourceIpv4Address/>
+        <sourceInterfaceName/>
+      </ftpClient>
+    </ftpc>
+    <system xmlns="http://www.huawei.com/netconf/vrp" format-version="1.0" content-version="1.0">
+      <systemInfo>
+        <sysName>gw_sco-1_01</sysName>
+        <sysContact>R&amp;D Beijing, Huawei Technologies co.,Ltd.</sysContact>
+        <sysLocation>Beijing China</sysLocation>
+        <sysDesc>Huawei Versatile Routing Platform Software &#13;
+VRP (R) software, Version 8.180 (NE40E V800R011C00SPC607B607) &#13;
+Copyright (C) 2012-2018 Huawei Technologies Co., Ltd. &#13;
+HUAWEI NE40E &#13;</sysDesc>
+        <sysObjectId>1.3.6.1.4.1.2011.2.62.2.3</sysObjectId>
+        <sysGmtTime>1636351586</sysGmtTime>
+        <sysUpTime>78008</sysUpTime>
+        <sysService>78</sysService>
+        <platformName>VRP</platformName>
+        <platformVer>V800R018C10SPC607</platformVer>
+        <productName>NE40E</productName>
+        <productVer>V800R011C00SPC607</productVer>
+        <patchVer/>
+        <esn>391091713285295</esn>
+        <mac>705A-BEF2-F4A7</mac>
+        <lsRole>admin</lsRole>
+        <authenFlag>false</authenFlag>
+        <characterSet>ISO-8859-1</characterSet>
+      </systemInfo>
+      <securityRiskInfos>
+        <securityRiskInfo>
+          <level>high</level>
+          <featureName>INFO</featureName>
+          <riskInfo>Use the non-secure SYSLOG protocol.</riskInfo>
+          <repairAction>Use the secure SSL-encrypted SYSLOG protocol.</repairAction>
+        </securityRiskInfo>
+        <securityRiskInfo>
+          <level>high</level>
+          <featureName>NTP</featureName>
+          <riskInfo>There is no or MD5 authentication configured</riskInfo>
+          <repairAction>Configure NTP HMAC-SHA256 authentication</repairAction>
+        </securityRiskInfo>
+        <securityRiskInfo>
+          <level>high</level>
+          <featureName>SNMP</featureName>
+          <riskInfo>SNMP V1/V2c is enabled</riskInfo>
+          <repairAction>Disable SNMP V1/V2c and enable SNMP V3 only</repairAction>
+        </securityRiskInfo>
+        <securityRiskInfo>
+          <level>high</level>
+          <featureName>TTY</featureName>
+          <riskInfo>No authentication is configured, or password authentication is configured but no password is specified on the console interface.</riskInfo>
+          <repairAction>Use AAA authentication.</repairAction>
+        </securityRiskInfo>
+        <securityRiskInfo>
+          <level>high</level>
+          <featureName>TTY</featureName>
+          <riskInfo>No authentication is configured, or password authentication is configured but no password is specified on the aux interface.</riskInfo>
+          <repairAction>Use AAA authentication.</repairAction>
+        </securityRiskInfo>
+        <securityRiskInfo>
+          <level>medium</level>
+          <featureName>LAM</featureName>
+          <riskInfo>The system does not periodically prompt the user to change the password, which increases the possibility of cracking the password.</riskInfo>
+          <repairAction>Set the aging period for user password.</repairAction>
+        </securityRiskInfo>
+        <securityRiskInfo>
+          <level>medium</level>
+          <featureName>LAM</featureName>
+          <riskInfo>User security policy has been closed, which may cause security risk.</riskInfo>
+          <repairAction>Open user security policy immediately.</repairAction>
+        </securityRiskInfo>
+        <securityRiskInfo>
+          <level>medium</level>
+          <featureName>LAM</featureName>
+          <riskInfo>The password complexity policy has been disabled, which may cause security risks.</riskInfo>
+          <repairAction>Enable the password complexity policy immediately.</repairAction>
+        </securityRiskInfo>
+        <securityRiskInfo>
+          <level>medium</level>
+          <featureName>OPS</featureName>
+          <riskInfo>Python2.7 will receive bugfix support until January 1, 2020. After the last release, Python2.7 will receive no support.</riskInfo>
+          <repairAction>Switch to python version 3.7.0.</repairAction>
+        </securityRiskInfo>
+      </securityRiskInfos>
+    </system>
+    <l2tpv3 xmlns="http://www.huawei.com/netconf/vrp" format-version="1.0" content-version="1.0">
+      <globalAttribute>
+        <globalEnable>false</globalEnable>
+      </globalAttribute>
+    </l2tpv3>
+    <mflp xmlns="http://www.huawei.com/netconf/vrp" format-version="1.0" content-version="1.0">
+      <globalAttribute>
+        <blockPolicy>disable</blockPolicy>
+        <generateTime>600</generateTime>
+        <assistStp>disable</assistStp>
+        <trafficSuppState>enable</trafficSuppState>
+        <trafficSuppThreshold>10</trafficSuppThreshold>
+      </globalAttribute>
+    </mflp>
+    <mplstpoam xmlns="http://www.huawei.com/netconf/vrp" format-version="1.0" content-version="1.0">
+      <global>
+        <mplsTpMode>standard</mplsTpMode>
+        <aisEnable>false</aisEnable>
+        <channelType>0x7ffa</channelType>
+        <oamNum>0</oamNum>
+      </global>
+    </mplstpoam>
+    <ntp xmlns="http://www.huawei.com/netconf/vrp" format-version="1.0" content-version="1.0">
+      <ntpUCastCfgs>
+        <ntpUCastCfg>
+          <addrFamily>IPv4</addrFamily>
+          <ipv4Addr>10.47.255.1</ipv4Addr>
+          <ipv6Addr>::</ipv6Addr>
+          <type>Server</type>
+          <vpnName>_public_</vpnName>
+          <neid>0-0</neid>
+          <isPreferred>false</isPreferred>
+          <keyId/>
+          <version>4</version>
+          <ifName/>
+          <maxpollInterval>10</maxpollInterval>
+          <minpollInterval>6</minpollInterval>
+          <isPreempt>false</isPreempt>
+          <isBurst>false</isBurst>
+          <isIburst>false</isIburst>
+          <portNumber>123</portNumber>
+        </ntpUCastCfg>
+      </ntpUCastCfgs>
+      <ntpSsnFullInfos>
+        <ntpSsnFullInfo>
+          <clockSrc>10.47.255.1</clockSrc>
+          <vpnName>_public_</vpnName>
+          <localMode>client</localMode>
+          <interfaceId>wildcard</interfaceId>
+          <clockStratum>16</clockStratum>
+          <clockStatus>configured, insane, valid, unsynced</clockStatus>
+          <refClockId>0.0.0.0</refClockId>
+          <localPoll>1024</localPoll>
+          <peerMode>unspec</peerMode>
+          <peerPoll>1024</peerPoll>
+          <offset>0.0000 ms</offset>
+          <delay>0.00 ms</delay>
+          <dispersion>0.00 ms</dispersion>
+          <rootDelay>0.00 ms</rootDelay>
+          <rootDispersion>0.00 ms</rootDispersion>
+          <reacheability>0</reacheability>
+          <syncDist>5.169</syncDist>
+          <syncState>clock is not set</syncState>
+          <precision>2^17</precision>
+          <version>4</version>
+          <refTime>00:00:00.000 UTC Jan 1 1900(00000000.00000000)</refTime>
+          <orgTime>00:00:00.000 UTC Jan 1 1900(00000000.00000000)</orgTime>
+          <recvTime>00:00:00.000 UTC Jan 1 1900(00000000.00000000)</recvTime>
+          <xmitTime>06:00:56.002 UTC Nov 7 2021(E531EA18.0093EA2D)</xmitTime>
+          <filterDelay>0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00</filterDelay>
+          <filterOffset>0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00</filterOffset>
+          <filterDisp>16.00  16.00  16.00  16.00  16.00  16.00  16.00  16.00</filterDisp>
+          <refClkStatus/>
+          <timeCode/>
+          <poll>1024</poll>
+          <flags>[5]</flags>
+          <when>77960</when>
+        </ntpSsnFullInfo>
+      </ntpSsnFullInfos>
+      <ntpSsnInfos>
+        <ntpSsnInfo>
+          <clockSrc>10.47.255.1</clockSrc>
+          <clockStatus>configured, insane, valid, unsynced</clockStatus>
+          <refClockId>0.0.0.0</refClockId>
+          <clockStratum>16</clockStratum>
+          <reacheability>0</reacheability>
+          <poll>1024</poll>
+          <when>77960</when>
+          <offset>0.0000 ms</offset>
+          <delay>0.00 ms</delay>
+          <dispersion>0.00 ms</dispersion>
+        </ntpSsnInfo>
+      </ntpSsnInfos>
+      <ntpStatus>
+        <clockStatus>unsynchronized</clockStatus>
+        <clockStratum>16</clockStratum>
+        <clockSrc>none</clockSrc>
+        <nominamFreq>100.0000 Hz</nominamFreq>
+        <actualFreq>100.0000 Hz</actualFreq>
+        <clockPrecision>2^17</clockPrecision>
+        <offset>0.0000 ms</offset>
+        <rootDelay>0.00 ms</rootDelay>
+        <rootDispersion>0.00 ms</rootDispersion>
+        <peerDispersion>0.00 ms</peerDispersion>
+        <refTime>00:00:00.000 UTC Jan 1 1900(00000000.00000000)</refTime>
+        <vpnName/>
+        <syncState/>
+      </ntpStatus>
+      <ntpBdStatuss>
+        <ntpBdStatus>
+          <selfNdName>17</selfNdName>
+          <synNdName>unknown</synNdName>
+          <offset>0.0000 ms</offset>
+          <refTime>00:00:00.000 UTC Jan 1 1900(00000000.00000000)</refTime>
+          <curTime>06:06:26.364 UTC Nov 7 2021(E531EB62.5D363F57)</curTime>
+          <clockStatus>Unsynchronized</clockStatus>
+          <isNTPSerConf>Yes</isNTPSerConf>
+          <clockPrecision>2^17</clockPrecision>
+          <poll>64</poll>
+        </ntpBdStatus>
+        <ntpBdStatus>
+          <selfNdName>1</selfNdName>
+          <synNdName>17</synNdName>
+          <offset>0.0 ms</offset>
+          <refTime>06:06:25.500 UTC Nov 7 2021(E531EB61.80000000)</refTime>
+          <curTime>06:06:26.363 UTC Nov 7 2021(E531EB62.5D2C16DF)</curTime>
+          <clockStatus>Synchronized</clockStatus>
+          <isNTPSerConf>No</isNTPSerConf>
+          <clockPrecision>2^18</clockPrecision>
+          <poll>64</poll>
+        </ntpBdStatus>
+      </ntpBdStatuss>
+      <ntpSystemCfg>
+        <maxSessCount>100</maxSessCount>
+        <isAuthEnable>false</isAuthEnable>
+        <isKodEnable>false</isKodEnable>
+        <syncInterval/>
+        <minDiscardIntvl>1</minDiscardIntvl>
+        <avgDiscardIntvl>5</avgDiscardIntvl>
+        <localPort>123</localPort>
+        <maxDistance>1</maxDistance>
+      </ntpSystemCfg>
+      <ntpSourceIfCfgs>
+        <ntpSourceIfCfg>
+          <addrFamily>IPv4</addrFamily>
+          <vpnName>_public_</vpnName>
+          <ifName>LoopBack0</ifName>
+        </ntpSourceIfCfg>
+      </ntpSourceIfCfgs>
+      <ntpSrvrDsblCfgs>
+        <ntpSrvrDsblCfg>
+          <addrFamily>IPv4</addrFamily>
+        </ntpSrvrDsblCfg>
+        <ntpSrvrDsblCfg>
+          <addrFamily>IPv6</addrFamily>
+        </ntpSrvrDsblCfg>
+      </ntpSrvrDsblCfgs>
+    </ntp>
+    <ops xmlns="http://www.huawei.com/netconf/vrp" format-version="1.0" content-version="1.0">
+      <opsApplications>
+        <opsApplication>
+          <fileName>autodiagnose.bat</fileName>
+          <size>2133</size>
+        </opsApplication>
+      </opsApplications>
+      <globalOpsSwitch>
+        <enable>true</enable>
+      </globalOpsSwitch>
+      <opsProcessHistoryStates>
+        <opsProcessHistoryState>
+          <command>_ops_frame_conditon.py _bfd_nvaccess.py</command>
+          <processId>10</processId>
+          <ownerType>assistant</ownerType>
+          <ownerName>_bfd_nvaccess.py</ownerName>
+          <isBackground>true</isBackground>
+          <result>normal</result>
+          <triggerTime>2021-11-06T08:26:31</triggerTime>
+          <startTime>2021-11-06T08:26:31</startTime>
+          <endTime>2021-11-06T08:26:31</endTime>
+          <state/>
+        </opsProcessHistoryState>
+        <opsProcessHistoryState>
+          <command>_ops_frame_conditon.py _nvo3_mtp.py</command>
+          <processId>7</processId>
+          <ownerType>assistant</ownerType>
+          <ownerName>_nvo3_mtp.py</ownerName>
+          <isBackground>true</isBackground>
+          <result>normal</result>
+          <triggerTime>2021-11-06T08:26:31</triggerTime>
+          <startTime>2021-11-06T08:26:31</startTime>
+          <endTime>2021-11-06T08:26:31</endTime>
+          <state/>
+        </opsProcessHistoryState>
+        <opsProcessHistoryState>
+          <command>_ops_frame_conditon.py _isis_mtp.py</command>
+          <processId>4</processId>
+          <ownerType>assistant</ownerType>
+          <ownerName>_isis_mtp.py</ownerName>
+          <isBackground>true</isBackground>
+          <result>normal</result>
+          <triggerTime>2021-11-06T08:26:31</triggerTime>
+          <startTime>2021-11-06T08:26:31</startTime>
+          <endTime>2021-11-06T08:26:31</endTime>
+          <state/>
+        </opsProcessHistoryState>
+        <opsProcessHistoryState>
+          <command>_ops_frame_conditon.py _ospfv3_mtp.py</command>
+          <processId>9</processId>
+          <ownerType>assistant</ownerType>
+          <ownerName>_ospfv3_mtp.py</ownerName>
+          <isBackground>true</isBackground>
+          <result>normal</result>
+          <triggerTime>2021-11-06T08:26:31</triggerTime>
+          <startTime>2021-11-06T08:26:31</startTime>
+          <endTime>2021-11-06T08:26:31</endTime>
+          <state/>
+        </opsProcessHistoryState>
+        <opsProcessHistoryState>
+          <command>_ops_frame_conditon.py _ospf_mtp.py</command>
+          <processId>8</processId>
+          <ownerType>assistant</ownerType>
+          <ownerName>_ospf_mtp.py</ownerName>
+          <isBackground>true</isBackground>
+          <result>normal</result>
+          <triggerTime>2021-11-06T08:26:31</triggerTime>
+          <startTime>2021-11-06T08:26:31</startTime>
+          <endTime>2021-11-06T08:26:31</endTime>
+          <state/>
+        </opsProcessHistoryState>
+        <opsProcessHistoryState>
+          <command>_ops_frame_conditon.py _ldp_mtp.py</command>
+          <processId>6</processId>
+          <ownerType>assistant</ownerType>
+          <ownerName>_ldp_mtp.py</ownerName>
+          <isBackground>true</isBackground>
+          <result>normal</result>
+          <triggerTime>2021-11-06T08:26:31</triggerTime>
+          <startTime>2021-11-06T08:26:31</startTime>
+          <endTime>2021-11-06T08:26:31</endTime>
+          <state/>
+        </opsProcessHistoryState>
+        <opsProcessHistoryState>
+          <command>_ops_frame_conditon.py _lacp_mtp.py</command>
+          <processId>5</processId>
+          <ownerType>assistant</ownerType>
+          <ownerName>_lacp_mtp.py</ownerName>
+          <isBackground>true</isBackground>
+          <result>normal</result>
+          <triggerTime>2021-11-06T08:26:31</triggerTime>
+          <startTime>2021-11-06T08:26:31</startTime>
+          <endTime>2021-11-06T08:26:31</endTime>
+          <state/>
+        </opsProcessHistoryState>
+        <opsProcessHistoryState>
+          <command>_ops_frame_conditon.py _bfd_mtp.py</command>
+          <processId>2</processId>
+          <ownerType>assistant</ownerType>
+          <ownerName>_bfd_mtp.py</ownerName>
+          <isBackground>true</isBackground>
+          <result>normal</result>
+          <triggerTime>2021-11-06T08:26:31</triggerTime>
+          <startTime>2021-11-06T08:26:31</startTime>
+          <endTime>2021-11-06T08:26:31</endTime>
+          <state/>
+        </opsProcessHistoryState>
+        <opsProcessHistoryState>
+          <command>_ops_frame_conditon.py _bgp_mtp.py</command>
+          <processId>3</processId>
+          <ownerType>assistant</ownerType>
+          <ownerName>_bgp_mtp.py</ownerName>
+          <isBackground>true</isBackground>
+          <result>normal</result>
+          <triggerTime>2021-11-06T08:26:31</triggerTime>
+          <startTime>2021-11-06T08:26:31</startTime>
+          <endTime>2021-11-06T08:26:31</endTime>
+          <state/>
+        </opsProcessHistoryState>
+      </opsProcessHistoryStates>
+      <opsContexts>
+        <opsContext>
+          <variable>cond</variable>
+          <creator>_ops_frame_conditon.py</creator>
+          <value>cond_value</value>
+          <accessType>save</accessType>
+          <accessTime>2021-11-06T08:26:31</accessTime>
+          <isHistory>false</isHistory>
+        </opsContext>
+      </opsContexts>
+      <pythonCurV>
+        <curVersion>Current python version is 2.7.15.</curVersion>
+      </pythonCurV>
+      <assistant>
+        <mtpAsstSwitch>
+          <enable>true</enable>
+        </mtpAsstSwitch>
+        <totalAsstSwitch>
+          <suspend>false</suspend>
+        </totalAsstSwitch>
+        <opsAsstCurrentStates>
+          <opsAsstCurrentState>
+            <name>_auto_diagnose</name>
+            <type>command</type>
+            <state>ready</state>
+            <condition>timer</condition>
+            <isDefault>false</isDefault>
+          </opsAsstCurrentState>
+          <opsAsstCurrentState>
+            <name>_bfd_mtp.py</name>
+            <type>script</type>
+            <state>ready</state>
+            <condition>event</condition>
+            <isDefault>true</isDefault>
+          </opsAsstCurrentState>
+          <opsAsstCurrentState>
+            <name>_bfd_nvaccess.py</name>
+            <type>script</type>
+            <state>ready</state>
+            <condition>event</condition>
+            <isDefault>true</isDefault>
+          </opsAsstCurrentState>
+          <opsAsstCurrentState>
+            <name>_bgp_mtp.py</name>
+            <type>script</type>
+            <state>ready</state>
+            <condition>alarm</condition>
+            <isDefault>true</isDefault>
+          </opsAsstCurrentState>
+          <opsAsstCurrentState>
+            <name>_isis_mtp.py</name>
+            <type>script</type>
+            <state>ready</state>
+            <condition>multiple</condition>
+            <isDefault>true</isDefault>
+          </opsAsstCurrentState>
+          <opsAsstCurrentState>
+            <name>_lacp_mtp.py</name>
+            <type>script</type>
+            <state>ready</state>
+            <condition>event</condition>
+            <isDefault>true</isDefault>
+          </opsAsstCurrentState>
+          <opsAsstCurrentState>
+            <name>_ldp_mtp.py</name>
+            <type>script</type>
+            <state>ready</state>
+            <condition>event</condition>
+            <isDefault>true</isDefault>
+          </opsAsstCurrentState>
+          <opsAsstCurrentState>
+            <name>_nvo3_mtp.py</name>
+            <type>script</type>
+            <state>ready</state>
+            <condition>multiple</condition>
+            <isDefault>true</isDefault>
+          </opsAsstCurrentState>
+          <opsAsstCurrentState>
+            <name>_ospf_mtp.py</name>
+            <type>script</type>
+            <state>ready</state>
+            <condition>event</condition>
+            <isDefault>true</isDefault>
+          </opsAsstCurrentState>
+          <opsAsstCurrentState>
+            <name>_ospfv3_mtp.py</name>
+            <type>script</type>
+            <state>ready</state>
+            <condition>event</condition>
+            <isDefault>true</isDefault>
+          </opsAsstCurrentState>
+        </opsAsstCurrentStates>
+        <opsAsstHistoryStates>
+          <opsAsstHistoryState>
+            <name>_auto_diagnose</name>
+            <type>command</type>
+            <isDefault>false</isDefault>
+            <triggerInfos>
+              <triggerInfo>
+                <condition>timer</condition>
+                <eventName>timer</eventName>
+                <triggerTime>2021-11-07 04:30:00</triggerTime>
+                <startTime>2021-11-07 04:30:00</startTime>
+                <endTime>2021-11-07 04:32:05</endTime>
+                <result>normal</result>
+              </triggerInfo>
+            </triggerInfos>
+          </opsAsstHistoryState>
+          <opsAsstHistoryState>
+            <name>_bfd_mtp.py</name>
+            <type>script</type>
+            <isDefault>true</isDefault>
+            <triggerInfos>
+              <triggerInfo>
+                <condition>subscribe</condition>
+                <eventName>--</eventName>
+                <triggerTime>2021-11-06 13:26:31</triggerTime>
+                <startTime>2021-11-06 13:26:31</startTime>
+                <endTime>2021-11-06 13:26:31</endTime>
+                <result>normal</result>
+              </triggerInfo>
+            </triggerInfos>
+          </opsAsstHistoryState>
+          <opsAsstHistoryState>
+            <name>_bfd_nvaccess.py</name>
+            <type>script</type>
+            <isDefault>true</isDefault>
+            <triggerInfos>
+              <triggerInfo>
+                <condition>subscribe</condition>
+                <eventName>--</eventName>
+                <triggerTime>2021-11-06 13:26:31</triggerTime>
+                <startTime>2021-11-06 13:26:31</startTime>
+                <endTime>2021-11-06 13:26:31</endTime>
+                <result>normal</result>
+              </triggerInfo>
+            </triggerInfos>
+          </opsAsstHistoryState>
+          <opsAsstHistoryState>
+            <name>_bgp_mtp.py</name>
+            <type>script</type>
+            <isDefault>true</isDefault>
+            <triggerInfos>
+              <triggerInfo>
+                <condition>subscribe</condition>
+                <eventName>--</eventName>
+                <triggerTime>2021-11-06 13:26:31</triggerTime>
+                <startTime>2021-11-06 13:26:31</startTime>
+                <endTime>2021-11-06 13:26:31</endTime>
+                <result>normal</result>
+              </triggerInfo>
+            </triggerInfos>
+          </opsAsstHistoryState>
+          <opsAsstHistoryState>
+            <name>_isis_mtp.py</name>
+            <type>script</type>
+            <isDefault>true</isDefault>
+            <triggerInfos>
+              <triggerInfo>
+                <condition>subscribe</condition>
+                <eventName>--</eventName>
+                <triggerTime>2021-11-06 13:26:31</triggerTime>
+                <startTime>2021-11-06 13:26:31</startTime>
+                <endTime>2021-11-06 13:26:31</endTime>
+                <result>normal</result>
+              </triggerInfo>
+            </triggerInfos>
+          </opsAsstHistoryState>
+          <opsAsstHistoryState>
+            <name>_lacp_mtp.py</name>
+            <type>script</type>
+            <isDefault>true</isDefault>
+            <triggerInfos>
+              <triggerInfo>
+                <condition>subscribe</condition>
+                <eventName>--</eventName>
+                <triggerTime>2021-11-06 13:26:31</triggerTime>
+                <startTime>2021-11-06 13:26:31</startTime>
+                <endTime>2021-11-06 13:26:31</endTime>
+                <result>normal</result>
+              </triggerInfo>
+            </triggerInfos>
+          </opsAsstHistoryState>
+          <opsAsstHistoryState>
+            <name>_ldp_mtp.py</name>
+            <type>script</type>
+            <isDefault>true</isDefault>
+            <triggerInfos>
+              <triggerInfo>
+                <condition>subscribe</condition>
+                <eventName>--</eventName>
+                <triggerTime>2021-11-06 13:26:31</triggerTime>
+                <startTime>2021-11-06 13:26:31</startTime>
+                <endTime>2021-11-06 13:26:31</endTime>
+                <result>normal</result>
+              </triggerInfo>
+            </triggerInfos>
+          </opsAsstHistoryState>
+          <opsAsstHistoryState>
+            <name>_nvo3_mtp.py</name>
+            <type>script</type>
+            <isDefault>true</isDefault>
+            <triggerInfos>
+              <triggerInfo>
+                <condition>subscribe</condition>
+                <eventName>--</eventName>
+                <triggerTime>2021-11-06 13:26:31</triggerTime>
+                <startTime>2021-11-06 13:26:31</startTime>
+                <endTime>2021-11-06 13:26:31</endTime>
+                <result>normal</result>
+              </triggerInfo>
+            </triggerInfos>
+          </opsAsstHistoryState>
+          <opsAsstHistoryState>
+            <name>_ospf_mtp.py</name>
+            <type>script</type>
+            <isDefault>true</isDefault>
+            <triggerInfos>
+              <triggerInfo>
+                <condition>subscribe</condition>
+                <eventName>--</eventName>
+                <triggerTime>2021-11-06 13:26:31</triggerTime>
+                <startTime>2021-11-06 13:26:31</startTime>
+                <endTime>2021-11-06 13:26:31</endTime>
+                <result>normal</result>
+              </triggerInfo>
+            </triggerInfos>
+          </opsAsstHistoryState>
+          <opsAsstHistoryState>
+            <name>_ospfv3_mtp.py</name>
+            <type>script</type>
+            <isDefault>true</isDefault>
+            <triggerInfos>
+              <triggerInfo>
+                <condition>subscribe</condition>
+                <eventName>--</eventName>
+                <triggerTime>2021-11-06 13:26:31</triggerTime>
+                <startTime>2021-11-06 13:26:31</startTime>
+                <endTime>2021-11-06 13:26:31</endTime>
+                <result>normal</result>
+              </triggerInfo>
+              </triggerInfos>
+            </opsAsstHistoryState>
+          </opsAsstHistoryStates>
+        </assistant>
+    </ops>
+  </data>
+</rpc-reply>

@@ -1,0 +1,5 @@
+- device_params: {'name': 'huawei'}
+  host: 10.0.0.58
+  username: sgproot
+  password: Navy4ce
+  port: 830
